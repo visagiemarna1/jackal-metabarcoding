@@ -1,0 +1,15 @@
+# Ignore raw data and intermediate files
+*.fastq
+*.fa
+*.fasta
+*.udb
+*.zip
+
+# Ignore everything in output folder...
+output/*
+
+# ...except the final useful results
+!output/foo_table.csv
+!output/otu_table.txt
+!output/otus_taxonomy.txt
+
